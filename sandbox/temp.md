@@ -1,28 +1,15 @@
-# standardmark
+# head
 
-Markdown Style Guide, Linter and Formatter inspired by the strict ruleset of  
-[**JavaScript** Standard Style] and expanding on the [**GitHub** Markdown Styleguide]  
-following the GitHub Flavoured Markdown spec. It core is a modified version of  
-**[markdownlint]**. To see an example of the standardmark target-spec,  
-you can have a look at [this *README* in plain-text].  
-*NOTE: the standardmark-spec is still a work in progress and subject to change*.
+I'm working on a GitHub Flavoured Markdown linter and formatter, that  
+can enforce conventions and autofix and format more than the existing formatters.  
+its running on an altered version of [markdownlint] and is inspired the strict  
+rules of [JavaScript Standard Style]. It follows the [GitHub Markdown Styleguide]  
+and is meant to expand on it to make it as easy as possible to read in plain text.
 
 [markdownlint]:<https://github.com/DavidAnson/markdownlint> "GitHub repo"
-[**JavaScript** Standard Style]: <https://standardjs.com/index.html> "Homepage"
-[**GitHub** Markdown Styleguide]: <https://github.com/style-guides/Markdown> "Styleguide repo"
-[*README* in plain-text]: <https://>
+[JavaScript Standard Style]: <https://standardjs.com/index.html> "Homepage"
+[GitHub Markdown Styleguide]: <https://github.com/style-guides/Markdown> "Styleguide repo"
 
-
-## Table of Content
-<!-- TOC -->
-
-- [standardmark](#standardmark)
-  - [Table of Content](#table-of-content)
-  - [Goals](#goals)
-  - [need input](#need-input)
-  - [some rules](#some-rules)
-
-<!-- /TOC -->
 
 ## Goals
 

@@ -1,0 +1,112 @@
+{
+  "$schema": "../schema/markdownlint-config-schema.json",
+  "heading-increment": true,
+  "first-heading-h1": false, // depricated
+  "header-style": {
+    "style": "atx"
+  },
+  "ul-style": {
+    "style": "dash"
+  },
+  "list-indent": true,
+  "ul-start-left": false, // depricated
+  "ul-indent": {
+    "indent": 2,
+    "start_indented": false
+  },
+  "no-trailing-spaces": {
+    "br_spaces": 2,
+    "list_item_empty_lines": false,
+    "strict": true // review
+  },
+  "no-hard-tabs": {
+    "code_blocks": true
+  },
+  "no-reversed-links": true,
+  "no-multiple-blanks": { // FIXME set back to 1 and add exception before header
+    "maximum": 2
+  },
+  "line-length": { // review
+    "code_block_line_length": 80,
+    "code_blocks": true,
+    "heading_line_length": 80,
+    "headings": true,
+    "line_length": 80,
+    "tables": true,
+    "strict": false
+  },
+  "commands-show-output": true,
+  "no-missing-space-atx": true,
+  "no-multiple-space-atx": true,
+  "no-missing-space-closed-atx": false, // not relevant
+  "no-multiple-space-closed-atx": false, // not relevant
+  "blanks-around-headings": {
+    "lines_above": 2, // todo: add exception for h-h
+    "lines_below": 1
+  },
+  "header-start-left": true,
+  "no-duplicate-heading": {
+    "allow_different_nesting": true,
+    "siblings_only": false
+  },
+  "single-title": true,
+  "no-trailing-punctuation": {
+    "punctuation": ".,;:!?。，；：！？" // review
+  },
+  "no-multiple-space-blockquote": true,
+  "no-blanks-blockquote": true, // -review
+  "ol-prefix": { // FIXME: 0,1 AND ordered, if it requires multiple digits, prefix with 0
+    "style": "one_or_ordered"
+  }, // review Note: This rule will report violations for cases like the following where
+  // review an improperly-indented code block (or similar) appears between two list items and "breaks" the list in two:
+  "list-marker-space": {
+    "ol_multi": 1,
+    "ol_single": 1,
+    "ul_multi": 1,
+    "ul_single": 1
+  },
+  "blanks-around-fences": {
+    "list_items": true
+  },
+  "blanks-around-lists": true,
+  "no-inline-html": {
+    "allowed_elements": []
+  },
+  "no-bare-urls": true,
+  "hr-style": {
+    "style": "---"
+  },
+  "no-emphasis-as-heading": { // review
+    "punctuation": ".,;:!?。，；：！？"
+  },
+  "no-space-in-emphasis": true,
+  "no-space-in-code": true, // review embedde backtick
+  "no-space-in-links": true,
+  "fenced-code-language": true,
+  "first-line-heading": {
+    "front_matter_title": "^\\s*title\\s*[:=]", // FIXME add in some easy way to suspend
+    "level": 1
+  },
+  "no-empty-links": true,
+  // "required-headings": { // todo: implement usefull version of this
+  //   "headings": [
+  //     "#",
+  //     "## (optional)",
+  //     "##",
+  //     "*",
+  //     "#### Footnotes (optional)"
+  //   ]
+  // },
+  "proper-names": {
+    "names": [], // review
+    "code_blocks": false
+  },
+  "no-alt-text": true,
+  "code-block-style": {
+    "style": "fenced"
+  },
+  "single-trailing-newline": true,
+  "code-fence-style": {
+    "style": "backtick"
+  }
+}
