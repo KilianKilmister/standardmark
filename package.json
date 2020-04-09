@@ -1,17 +1,17 @@
 {
   "name": "standardmark",
   "version": "0.1.0",
-  "description": "A Node.js style checker and lint tool for Markdown/CommonMark files.",
+  "description": "Markdown Style Guide, Linter & Formatter to produce clean and standardised documents.",
   "main": "lib/markdownlint.js",
   "types": "lib/markdownlint.d.ts",
   "author": "Kilian (originator: David Anson)",
   "license": "MIT",
-  "homepage": "https://github.com/DavidAnson/markdownlint",
+  "homepage": "https://github.com/KilianKilmister/standardmark",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DavidAnson/markdownlint.git"
+    "url": "https://github.com/KilianKilmister/standardmark.git"
   },
-  "bugs": "https://github.com/DavidAnson/markdownlint/issues",
+  "bugs": "https://github.com/KilianKilmister/standardmark/issues",
   "scripts": {
     "testx": "node test/markdownlint-test.js",
     "test": "standartmark.js README.md",

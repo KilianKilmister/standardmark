@@ -10,7 +10,7 @@ you can have a look at [this *README* in plain-text].
 [markdownlint]:<https://github.com/DavidAnson/markdownlint> "GitHub repo"
 [**JavaScript** Standard Style]: <https://standardjs.com/index.html> "Homepage"
 [**GitHub** Markdown Styleguide]: <https://github.com/style-guides/Markdown> "Styleguide repo"
-[*README* in plain-text]: <https://>
+[*README* in plain-text]: <https://raw.githubusercontent.com/KilianKilmister/standardmark/master/README.md> "plain-text version"
 
 
 ## Table of Content
