@@ -1,21 +1,21 @@
 // @ts-check
 
-"use strict";
+'use strict'
 
-const anyBlockquote = require("./any-blockquote");
-module.exports.anyBlockquote = anyBlockquote;
+const anyBlockquote = require('./any-blockquote')
+module.exports.anyBlockquote = anyBlockquote
 
-const everyNLines = require("./every-n-lines");
-module.exports.everyNLines = everyNLines;
+const everyNLines = require('./every-n-lines')
+module.exports.everyNLines = everyNLines
 
-const firstLine = require("./first-line");
-module.exports.firstLine = firstLine;
+const firstLine = require('./first-line')
+module.exports.firstLine = firstLine
 
-const lettersEX = require("./letters-E-X");
-module.exports.lettersEX = lettersEX;
+const lettersEX = require('./letters-E-X')
+module.exports.lettersEX = lettersEX
 
-const lintJavaScript = require("./lint-javascript");
-module.exports.lintJavaScript = lintJavaScript;
+const lintJavaScript = require('./lint-javascript')
+module.exports.lintJavaScript = lintJavaScript
 
 module.exports.all = [
   anyBlockquote,
@@ -23,4 +23,4 @@ module.exports.all = [
   firstLine,
   lettersEX,
   lintJavaScript
-];
+]
