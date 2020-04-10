@@ -1,5 +1,5 @@
 {
-  "$schema": "../schema/markdownlint-config-schema.json",
+  "$schema": "./schema/markdownlint-config-schema.json",
   "heading-increment": true,
   "first-heading-h1": false, // depricated
   "header-style": {

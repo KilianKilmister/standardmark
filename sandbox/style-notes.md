@@ -9,6 +9,10 @@
   - [ToC](#toc)
   - [File name](#file-name)
   - [sub-title](#sub-title)
+  - [Line Length](#line-length)
+  - [Bullet Point Spacing](#bullet-point-spacing)
+    - [empty line before moving up the hirarchy](#empty-line-before-moving-up-the-hirarchy)
+    - [empty line before any hirarchy change](#empty-line-before-any-hirarchy-change)
 
 <!-- /TOC -->
 
@@ -30,6 +34,35 @@ optional single line of text under a heading to keep headings short.
 contain additional information for the block
 
 ## Line Length
-*Open for discussion*
+*discuss*
 
 often recommended are 80 characters
+
+## Bullet Point Spacing
+*discuss*
+
+### empty line before moving up the hirarchy
+
+```md
+- level 0
+  - level 1
+  - level 1
+  
+- level 0
+  - level 1
+  - level 1
+```
+
+### empty line before any hirarchy change
+
+```md
+- level 0
+
+  - level 1
+  - level 1
+  
+- level 0
+
+  - level 1
+  - level 1
+```
