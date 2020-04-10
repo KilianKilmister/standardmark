@@ -13,7 +13,7 @@ you can have a look at [this *README* in plain-text].
 "Homepage"
 [**GitHub** Markdown Styleguide]: <https://github.com/style-guides/Markdown>
 "Styleguide repo"
-[*README* in plain-text]: <https://raw.githubusercontent.com/KilianKilmister/standardmark/master/README.md>
+[this *README* in plain-text]: <https://raw.githubusercontent.com/KilianKilmister/standardmark/master/README.md>
 "plain-text version"
 
 
